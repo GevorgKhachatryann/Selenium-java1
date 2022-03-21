@@ -42,7 +42,7 @@ public class Seleniumeasy extends Hooks {
     static By givenW = By.cssSelector("[class=\"main-header\"]");
 
 
-    public static void visit() {
+    /*public static void visit() {
         driver.get("https://demoqa.com/webtables");
     }
 
@@ -60,7 +60,7 @@ public class Seleniumeasy extends Hooks {
         driver.findElement(webTable);
         driver.findElement(webTable).click();
     }
-
+*/
     public static void addRecord() {
 
         driver.findElement(addBtn).click();
@@ -114,7 +114,7 @@ public class Seleniumeasy extends Hooks {
         assertEquals(true, driver.findElement(assertName).getText());
     }
 
-    public static void assertLastName() {
+  /*  public static void assertLastName() {
         assertEquals("Khachatryan", driver.findElement(asserLastName).getText());
     }
 
@@ -133,7 +133,7 @@ public class Seleniumeasy extends Hooks {
     public static void assertDepatmentText() {
         assertEquals("aaaaaaaaaaaaaaa", driver.findElement(assertDepartment).getText());
     }
-
+*/
     public static void assertEditingName() {
         assertEquals("Alden", driver.findElement(assertFirstName).getText());
 
