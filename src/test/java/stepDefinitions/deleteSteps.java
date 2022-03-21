@@ -9,8 +9,5 @@ public class deleteSteps {
     public void iClickOnDeleteButton() {
         Seleniumeasy.deleteRecord();
     }
-    @Then("^assert that First Name deleted$")
-    public void assertThatFirstNameDeleted() {
-        Seleniumeasy.assertElementHasText();
-    }
+  
 }
